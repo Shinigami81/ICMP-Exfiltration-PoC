@@ -76,7 +76,7 @@ def main():
                 print("[DEBUG] No Raw layer in ICMP packet")
 
     # Start sniffing ICMP packets on eth0 interface
-    sniff(filter="icmp", prn=handler, iface="eth0")
+    sniff(filter="icmp", prn=handler, iface="eth0") # In the iface variable remember that you need to insert your Internet Interface. In my case is eth0 but for you can be different
 
     # Reconstruct the binary stream from received packets
     bitstream = ''.join(packets[k] for k in sorted(packets.keys()))
