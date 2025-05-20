@@ -6,6 +6,7 @@ Proof-of-concept scripts to demonstrate file exfiltration using ICMP protocol.
 ## 📌 Overview
 
 This repository contains two Python scripts (`sender.py` and `receiver.py`) demonstrating how files can be covertly transmitted using the ICMP protocol, commonly employed for network diagnostics (ping). This PoC is intended solely for educational and research purposes.
+To read the entire POC guide, please follow my [Medium](https://medium.com/@black18t18/data-exfiltration-via-icmp-protocol-b5c9e8f5cf6f) artivle and consider the possibility to follow me.
 
 ---
 
